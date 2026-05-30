@@ -16,6 +16,7 @@
 
 ## Diagnostic Steps
 
+
 ### Step 1 - Test loopback (Can PC talk to itself?)
 Ping 192.168.1.21
 ### Result: 
@@ -31,6 +32,8 @@ Packets: Sent = 4, Received = 4, Lost = 0 (0% loss)
 ![Loopback Test](images/02-loopback-test.PNG)
 
 ### Interpretation: If replies received, the network adapter is working.
+
+
 
 
 ### Step 2 — Test local network
@@ -50,6 +53,9 @@ Reply from 192.168.1.24: bytes=32 time<1ms TTL=128
 ### Interpretation: PC can reach local devices. Problem is only with internet.
 
 
+
+
+
 ### Step 3 - Gateway Unreachable Test
 Ping 8.8.8.8
 ### Result: 
@@ -67,6 +73,8 @@ Ping statistics for 8.8.8.8:
 
 
 
+
+
 ### Step 4 — Check IP configuration
 ipconfig
 ### Result: Default Gateway shows 192.168.1.99 — INCORRECT
@@ -79,6 +87,8 @@ Default gateway was misconfigured to 192.168.1.99.
 The router's actual IP is 192.168.1.1
 
 
+
+
 ## Step 5 - Resolution
 1. Navigate to PC IP Configuration
 2. Change Default Gateway to: 192.168.1.1
@@ -87,10 +97,14 @@ The router's actual IP is 192.168.1.1
 ![Gateway Reachable After Fix](images/06-gateway-reachable-after-fix.PNG)
 
 
+
+
 ## Verification Checklist
 - [x] ping 192.168.1.1 — success
 - [x] ping 8.8.8.8 — success
 - [x] User confirmed internet access restored
+
+
 
 
 ## Lessons Learned
