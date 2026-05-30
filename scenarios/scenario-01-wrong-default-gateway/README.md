@@ -18,12 +18,15 @@
 
 ### Step 1 - Test loopback (Can PC talk to itself?)
 Ping 192.168.1.21
-### Result: Pinging 192.168.1.21 with 32 bytes of data:
+### Result: 
+```text
+Pinging 192.168.1.21 with 32 bytes of data:
 Reply from 192.168.1.21: bytes=32 time=11ms TTL=128
 Reply from 192.168.1.21: bytes=32 time=4ms TTL=128
 Reply from 192.168.1.21: bytes=32 time<1ms TTL=128
 Reply from 192.168.1.21: bytes=32 time=3ms TTL=128
 Packets: Sent = 4, Received = 4, Lost = 0 (0% loss)
+```
 
 ![Loopback Test](images/02-loopback-test.PNG)
 
@@ -32,12 +35,15 @@ Packets: Sent = 4, Received = 4, Lost = 0 (0% loss)
 
 ### Step 2 — Test local network
 ping 192.168.1.24
-### Result: Pinging 192.168.1.24 with 32 bytes of data:
+### Result: 
+```text
+Pinging 192.168.1.24 with 32 bytes of data:
 Reply from 192.168.1.24: bytes=32 time<1ms TTL=128
 Reply from 192.168.1.24: bytes=32 time<1ms TTL=128
 Reply from 192.168.1.24: bytes=32 time<1ms TTL=128
 Reply from 192.168.1.24: bytes=32 time<1ms TTL=128
  Packets: Sent = 4, Received = 4, Lost = 0 (0% loss)
+ ```
 
 ![Local Network Connectivity Test](images/03-local-network-connectivity-test.PNG)
 
@@ -46,13 +52,16 @@ Reply from 192.168.1.24: bytes=32 time<1ms TTL=128
 
 ### Step 3 - Gateway Unreachable Test
 Ping 8.8.8.8
-### Result: Pinging 8.8.8.8 with 32 bytes of data:
+### Result: 
+```text
+Pinging 8.8.8.8 with 32 bytes of data:
 Request timed out.
 Request timed out.
 Request timed out.
 Request timed out.
 Ping statistics for 8.8.8.8:
-    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss)
+```
 
 ![Gateway Unreachable Test](images/04-gateway-unreachable-test.PNG)
 
