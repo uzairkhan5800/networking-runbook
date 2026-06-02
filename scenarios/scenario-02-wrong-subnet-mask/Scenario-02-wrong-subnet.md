@@ -1,14 +1,10 @@
-# Scenario 01: PC Cannot Reach the Internet
+# Scenario 02: Workstation on Wrong Subnet
 
 ## Summary
 **Date:** 01-06-2026
-**Severity:** High — user cannot access any online services
-**Simulated in:** Cisco Packet Tracer
 
-## Problem - What User Reports
-- "I can not open any websites"
-- "The internet is not working"
-- Local files and printers still work fine
+A workstation was unable to communicate with the default gateway or other devices on the network. Investigation revealed that the workstation had been assigned an IP address belonging to a different subnet than the rest of the network.
+
 
 ## Network Diagram
 ![Network Topology](images/01-network-topology.png)
