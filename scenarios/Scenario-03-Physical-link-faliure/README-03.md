@@ -130,7 +130,7 @@ Request timed out
 
 **Screenshot:**
 
-![Gateway Ping Failed](images/05-gateway-ping-failed.png)
+![Gateway Ping Failed](images/05-gateway-ping-failed.PNG)
 
 **Analysis:**
 
@@ -178,7 +178,7 @@ No ARP Entries Found
 
 **Screenshot:**
 
-![ARP Table](images/07-arp-empty.png)
+![ARP Table](images/07-arp-empty.PNG)
 
 **Analysis:**
 
@@ -216,7 +216,7 @@ Although the workstation retained a valid IP configuration, it could not transmi
 
 **Screenshot:**
 
-![Cable Reconnected](images/08-cable-reconnected.png)
+![Cable Reconnected](images/08-cable-reconnected.PNG)
 
 ---
 
