@@ -80,7 +80,7 @@ ping 127.0.0.1
 
 **Screenshot:**
 
-![Loopback Test](images/03-loopback-success.png)
+![Loopback Test](images/03-loopback-success.PNG)
 
 **Analysis:**
 
